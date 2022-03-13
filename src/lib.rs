@@ -2,9 +2,9 @@ pub mod animal;
 
 #[cfg(test)]
 mod tests {
-    //use animal::cat;
-    //use animal::dog;
-    use crate::animal::*;
+    use animal::cat;
+    use animal::dog;
+    // use crate::animal::*;
 
     #[test]
     fn it_works() {
